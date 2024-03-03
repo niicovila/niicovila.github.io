@@ -16,8 +16,12 @@
       location: Barcelona, Spain
       year: Expected June 2024
       description:
-        - Honors: Numerical Methods, Machine Learning, Signals & Systems I, Probability, Operating Systems
-        - Undergraduate Thesis Topic: Regularized Deep Reinforcement Learning from a Linear Programming framework. Advisor: Gergely Neu.
+        - title: Honors
+          contents:
+            - Numerical Methods, Machine Learning, Signals & Systems I, Probability, Operating Systems
+        - title: Undergraduate Thesis Topic
+          contents:
+            - Regularized Deep Reinforcement Learning from a Linear Programming framework. Advisor: Gergely Neu.
     - title: Non-degree seeker, International Student at Large
       institution: The University of Chicago
       location: Chicago, IL
