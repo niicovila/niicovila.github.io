@@ -12,14 +12,7 @@ category: Data Science
 ### Data Exploration & Analytics
 This feature empowers users to delve into their datasets with ease and precision. Through interactive visualizations and intuitive tools, users can gain insights into their data's patterns, trends, and anomalies. Whether exploring relationships between variables, detecting outliers, or uncovering hidden correlations, this feature enables users to extract actionable insights and drive data-driven decision-making.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid loading="eager" path="assets/video/EDA.mov" title="Web-App Visualization of EDA" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
-    </div>
-</div>
-<div class="caption">
-    Web-App Visualization of Exploratory Data Analysis
-</div>
+
 
 ### ML Salary Predictions
 
