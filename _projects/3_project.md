@@ -9,7 +9,7 @@ category: Research
 
 ### VQ-VAE
 
-The Vector-Quantised Variational AutoEncoder is a very popular model used for image generation. It is the basic idea behind popular image generation products such as Stable Diffusion or Dall·e.   ([Aaron van den Oord, Oriol Vinyals, and Koray Kavukcuoglu. 2017](https://arxiv.org/abs/1711.00937)).
+The Vector-Quantised Variational AutoEncoder ([Aaron van den Oord, Oriol Vinyals, and Koray Kavukcuoglu. 2017](https://arxiv.org/abs/1711.00937)) is a very popular model used for image generation. It is the basic idea behind popular image generation products such as Stable Diffusion or Dall·e.   
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
