@@ -59,6 +59,17 @@ The synergy between these components lies at the heart of the model's power. The
     LSTM & Transformer consumption predictions and detected anomalies for different time series
 </div>
 
+- **Prophet**: As an additional, external part of the model, we integrated Meta's Prophet forecasting model in order to forecast future water consumption. In this way, we can both detect anomalies and have a robust predictive tool for consumption that can improve data-based decisions on the user side.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Prophet.jpg" title="Prophet Forecast" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Prophet Forecast for a time series.
+</div>
+  
 ### Interactive Anomaly Visualization
 
 Our project is complemented by a comprehensive web application designed for user-friendly exploration of water consumption patterns and anomalies. This intuitive interface allows visualization of multiple time series simultaneously, aiding in informed decision-making. The application offers in-depth analysis of anomalous data, including visualizations of model predictions alongside actual consumption values, highlighting anomaly points. Furthermore, it empowers users to explore future consumption predictions and geographically visualize anomalies across different areas. By integrating socioeconomic indicators, the web application facilitates strategic decision-making for optimized water resource management.
