@@ -11,6 +11,8 @@ category: Research
 
 The Vector-Quantised Variational AutoEncoder ([Aaron van den Oord, Oriol Vinyals, and Koray Kavukcuoglu. 2017](https://arxiv.org/abs/1711.00937)) is a very popular model used for image generation. It is the basic idea behind popular image generation products such as Stable Diffusion or Dall·e.   
 
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/vqvae.png" title="VQ-VAE model" class="img-fluid rounded z-depth-1" %}
@@ -19,6 +21,20 @@ The Vector-Quantised Variational AutoEncoder ([Aaron van den Oord, Oriol Vinyals
 <div class="caption">
     Original VQ-VAE
 </div>
+
+## Motivation
+VQ-VAEs have grown in popularity in the last few years given the splendid results they have proven in different
+generative AI processes. They are mainly based in an encoder-decoder architecture where the latent variables are
+discretized. Using a discrete space is a more compact way of coding latent variables and it seems reasonable to do so
+because in real life objects have underlying discrete representations. Nevertheless, discretizing the underlying latent
+space using a finite codebook as done in VQ-VAE has some limitations when generating new images given that they
+can only properly represent the underlying structure of the image but misses most of the details. Moreover, sampling
+from such latent space, will result in a finite set of generated images. To try tackling all these issues, I wondered if
+there was a possible encoding of the latent space such that it maintains VQ VAEs’ discrete latent properties while
+combining them with the continuous latents given by the encoder architecture.This, may convert the latent space
+into a more varied and true to reality one. Nevertheless, I haven’t found any research trying to use both discrete and
+continuous latent variables to try to make the generating process better. In this report I study how such a
+combination could be done and if that’s the case, if it results in a better model.
 
 ## Modifiactions of the original model
 
