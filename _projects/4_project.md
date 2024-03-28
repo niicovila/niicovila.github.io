@@ -2,7 +2,7 @@
 layout: page
 title: Visual Analytics WebApp integrating ML and XAI for car price predictions
 description: Interactive platform leveraging data analytics and machine learning to predict car prices.
-img: assets/img/dev-map
+img: assets/img/p4.png
 importance: 4
 category: Data Science
 ---
@@ -14,7 +14,7 @@ This feature empowers users to delve into their datasets with ease and precision
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid loading="eager" path="assets/video/visualization.mp4" title="Web-App Visualization of EDA" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid loading="eager" path="assets/video/EDA.mov" title="Web-App Visualization of EDA" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption">
@@ -27,7 +27,7 @@ This feature simplifies the exploration of data by allowing users to select diff
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid loading="eager" path="assets/video/visualization.mp4" title="Web-App Visualization" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid loading="eager" path="assets/video/PredModel.mov" title="Web-App Visualization" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption">
@@ -39,7 +39,7 @@ This feature helps users understand how our predictive model works by using SHAP
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid loading="eager" path="assets/video/visualization.mp4" title="Web-App Visualization" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid loading="eager" path="assets/video/Explainability.mov" title="Web-App Visualization" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption">
