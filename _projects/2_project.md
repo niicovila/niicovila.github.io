@@ -22,7 +22,7 @@ Traditional machine learning methods like SVMs and Isolation Forests often strug
     Transformer AD Architecture
 </div>
 
-[Our model](https://github.com/davidperezcarrasco/Anomaly-Detection-Hierarchical-Deep-Learning-Model), leveraging the power of LSTMs and Transformers, effectively captures sequential consumption patterns and identifies deviations from normal behavior. This enables early detection of anomalies, potentially leading to significant cost savings for both water companies and consumers, while promoting sustainable water usage.
+[Our model](https://github.com/niicovila/AgBarDataChallenge), leveraging the power of LSTMs and Transformers, effectively captures sequential consumption patterns and identifies deviations from normal behavior. This enables early detection of anomalies, potentially leading to significant cost savings for both water companies and consumers, while promoting sustainable water usage.
 
 ### Multi-Stage Hierarchical Architecture
 
