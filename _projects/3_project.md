@@ -61,6 +61,17 @@ This modification of the algorithm proved to improve the reconstruction error of
     On the left, a sample of the original and recomstructed images. On the right, the test and training reconstruction errors.
 </div>
 
+## Results
+Overrall, the proposed method achieves the best reconstruction errors, as we can see in the following image.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/losses.png" title="VQ-VAE losses" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Loss comparison between original method and the proposed method.
+</div>
 
 ## Limitations
 
