@@ -23,7 +23,7 @@ As part of my undergraduate thesis, I am conducting research on several state of
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/xppo.png" title="Modifications on PPO in CartPole" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/xppo.png" title="Modifications on PPO in CartPole and LunarLander" class="img-fluid rounded z-depth-1" %}
     </div>
 
 </div>
