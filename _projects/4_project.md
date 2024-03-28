@@ -2,7 +2,7 @@
 layout: page
 title: Visual Analytics WebApp integrating ML and XAI for car price predictions
 description: Interactive platform leveraging data analytics and machine learning to predict car prices.
-img: assets/img/p4.png
+img: assets/img/pr4.png
 importance: 4
 category: Data Science
 ---
