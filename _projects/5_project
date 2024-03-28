@@ -7,6 +7,6 @@ importance: 5
 category: Machine Learning
 ---
 
-[This project](https://github.com/niicovila/IRWA_Project) is aimed at providing an easy way to retrieve relevant information of a corpus of tweets given a user query. By combining transformer models to generate embeddings and a search engine, the project provides users with a full transformer based easy to use search engine which could potentially be used with any corpus of text.
+<a href="https://github.com/niicovila/IRWA_Project">This project</a> is aimed at providing an easy way to retrieve relevant information of a corpus of tweets given a user query. By combining transformer models to generate embeddings and a search engine, the project provides users with a full transformer based easy to use search engine which could potentially be used with any corpus of text.
 
 
