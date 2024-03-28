@@ -28,7 +28,7 @@ The Vector-Quantised Variational AutoEncoder is a very popular model used for im
     </div>
 </div>
 <div class="caption">
-    This is the main contribution, which changes the loss function used during the optimization process of reconstructing input images. All the details and motivation behind this is in this [!paper](https://github.com/niicovila/VQ-VAE-Extension/blob/main/paper.pdf)
+    This is the main contribution, which changes the loss function used during the optimization process of reconstructing input images. All the details and motivation behind this is in this <a href="https://github.com/niicovila/VQ-VAE-Extension/blob/main/paper.pdf">paper</a>.
 </div>
 
 This modification of the algorithm proved to improve the reconstruction error of the original model, leading to very good reconstructions from the original images, being in some cases almost identical.
