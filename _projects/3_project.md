@@ -3,7 +3,7 @@ layout: page
 title: VQ-VAE paper extension improving reconstruction error.
 description: Developed a modification on the VQ-VAE model (image generation) that improves by a factor of 2 the reconstruction error on the ImageNet dataset.
 img: assets/img/imagenet.png
-importance: 2
+importance: 3
 category: Research
 ---
 
