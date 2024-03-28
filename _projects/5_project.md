@@ -2,7 +2,7 @@
 layout: page
 title: Information Retrieval using Transformer Based Embeddings
 description: A search engine of tweets related to the russo-ukranian war using transformer based embeddings
-img: assets/img/pr4.png
+img: assets/img/irwa.png
 importance: 5
 category: Machine Learning
 ---
