@@ -2,7 +2,7 @@
 layout: page
 title: Entropy Regularized Reinforcement Learning algorithms
 description: Study of Entropy Regularization through Linear Programming formulations and its feasibility in large scale settings
-img: assets/img/cartpole.png
+img: assets/img/envs.jpg
 importance: 1
 category: Research
 ---
@@ -11,14 +11,24 @@ As part of my undergraduate thesis, I am conducting research on several state of
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/minigrid_plots2.png" title="Throughput Comparison between Z Learning for a LMDP and Q Learning for an embedded MDP" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/exact_xsac.png" title="Modifications on X-QL for SAC improvements on CheetahRun" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/value_function3.png" title="Optimal value function of a 4x4 Grid" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/exact_xtd3.png" title="Modifications on X-QL for TD3 improvements on CheetahRun" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    On the left, a throughput benchmarking of Z Learning and Q Learning using the proper embedding from LMDP to MDP for precise comparison. On the right, the value function of the MDP for a small grid environment of 5 x 5 cells.
+    Modifications I made on both SAC and TD3 versions of X-QL improve the final reward obtained.
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/xppo.png" title="Modifications on PPO in CartPole" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+</div>
+<div class="caption">
+    Used X-QL loss function to optimize the value function in PPO algorithm. It needs to be further studied.
 </div>
 
 My research is mainly focused on enhancing the performance of QREPS -which showed promising results in small scale environments- in larger scale environments with the use of DNNs, and reach comparable results to those achieving state of the art results, such as SAC, TD3 or PPO.
