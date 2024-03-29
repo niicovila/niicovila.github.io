@@ -36,7 +36,7 @@ As part of my undergraduate thesis, I am conducting research on several state of
 ### Q-REPS
 My research is mainly focused on enhancing the performance of QREPS -which showed promising results in small scale environments- in larger scale environments with the use of DNNs, and reach comparable results to those achieving state of the art results, such as SAC, TD3 or PPO.
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/minmaxqreps.png" title="MinMax QREPS Alg." class="img-fluid rounded z-depth-1" %}
     </div>
@@ -46,8 +46,8 @@ My research is mainly focused on enhancing the performance of QREPS -which showe
     QREPS practical implementation
 </div>
 
-<div class="row">
-    <div class="col-sm-8 mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/qreps_cartpole.png" title="QREPS Results CartPole" class="img-fluid rounded z-depth-1" %}
     </div>
 
