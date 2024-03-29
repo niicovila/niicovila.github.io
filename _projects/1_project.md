@@ -56,5 +56,13 @@ My research is mainly focused on enhancing the performance of QREPS -which showe
     QREPS performance on CartPole-v1
 </div>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid loading="eager" path="assets/video/qreps_carpole_video.mp4" title="Web-App Visualization" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
+<div class="caption">
+    Learning CartPole with QREPS
+</div>
 
 
