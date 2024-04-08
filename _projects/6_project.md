@@ -57,4 +57,5 @@ Under this structure, we consider the Analysis to be the most demanding segment,
 7. Rewriting the summarized analysis as a case brief: After obtaining the summarized analysis, we prompt GPT once again to rewrite it in the appropriate style and format of a case brief.
 
 ### Examples
+<embed src="assets/pdf/resume_nicolas" width="800px" height="600px" />
 
