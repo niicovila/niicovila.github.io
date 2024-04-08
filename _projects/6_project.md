@@ -57,4 +57,14 @@ Under this structure, we consider the Analysis to be the most demanding segment,
 7. Rewriting the summarized analysis as a case brief: After obtaining the summarized analysis, we prompt GPT once again to rewrite it in the appropriate style and format of a case brief.
 
 ### Examples
-<object data="assets/pdf/resume_nicolas.pdf" width="1000" height="1000" type='application/pdf'></object>
+#### **Legal Opinion 1**:
+<object data="assets/pdf/corning_glass.pdf" width="600" height="800" type='application/pdf'></object>
+
+#### **Analysis Tests (uncompiled)**:
+<object data="assets/pdf/tests_example.pdf" width="600" height="800" type='application/pdf'></object>
+
+#### **Legal Opinion 2**:
+<object data="assets/pdf/case_2.pdf" width="600" height="800" type='application/pdf'></object>
+
+#### **Case Brief Output**:
+<object data="assets/pdf/case_brief.pdf" width="600" height="800" type='application/pdf'></object>
