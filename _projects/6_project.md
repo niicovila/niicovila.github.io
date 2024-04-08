@@ -26,6 +26,18 @@ We address each of these issues in building software that can use LLMs to brief 
 
 4. To ensure that the LLM is not “hallucinating” we test each factual and concrete legal claim (e.g., a citation, statement of a test, or quote) with multiple, independent calls to a LLMs asking about that specific fact. Only when there is a high rate of agreement that the statements are true do we keep it in the draft
 
+#### **Basic UI**
+We've developed a very simple UI to make this process easy for any user. Intuitively, a user uploads a legal opinion -in future versions we would already have a database of cases or could take multiple input files-. Since we are still improving our information retrieval method, we are letting the user experience with different specificity levels from where to index the tree. Finally, the system will output a case brief in pdf format.
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/legal_ra.png" title="LegalRA" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+</div>
+<div class="caption">
+    UI of the Legal Research Assistant
+</div>
+
 #### **Case synthesis process**
 In this section we explain how we synthesize cases to satisfy the limited memory of existing LLMs and how to index cases for quicker search for, e.g, quotes. We then explain how we create a temporary database of cases relevant to the user’s legal question.
 
