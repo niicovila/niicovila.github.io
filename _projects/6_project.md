@@ -69,13 +69,13 @@ Under this structure, we consider the Analysis to be the most demanding segment,
 
 ### Examples
 #### **Legal Opinion 1**:
-<object data="assets/pdf/corning_glass.pdf" width="600" height="700" type='application/pdf'></object>
+<object data="/assets/pdf/corning_glass.pdf" width="600" height="700" type='application/pdf'></object>
 
 #### **Analysis Tests (uncompiled)**:
-<object data="assets/pdf/tests_example.pdf" width="600" height="700" type='application/pdf'></object>
+<object data="/assets/pdf/tests_example.pdf" width="600" height="700" type='application/pdf'></object>
 
 #### **Legal Opinion 2**:
-<object data="assets/pdf/case_2.pdf" width="600" height="700" type='application/pdf'></object>
+<object data="/assets/pdf/case_2.pdf" width="600" height="700" type='application/pdf'></object>
 
 #### **Case Brief Output**:
-<object data="assets/pdf/case_brief.pdf" width="600" height="700" type='application/pdf'></object>
+<object data="/assets/pdf/case_brief.pdf" width="600" height="700" type='application/pdf'></object>
