@@ -2,7 +2,7 @@
 layout: page
 title: Legal Research Assistant using LLMs
 description: Development of a Research Assistant in the realm of Law to write case briefs
-img: assets/img/envs.jpg
+img: assets/img/legal_ra.png
 importance: 6
 category: Research
 ---
