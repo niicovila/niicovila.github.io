@@ -49,7 +49,7 @@ We view the pyramid as giving us options given the memory limitations of the LLM
 Suppose memory from an LLM call is capped at M in some memory-space units. Moreover, suppose there are N equally weighted cases to be analyzed in an LLM call to answer a legal query. Then we want M/N amount of information (in memory-space units) on each case. If a pyramid on a case scales information (in memory units) at the rate of $2^k$, where k represents layers, then we want to store information at pyramid level k where $2^k$ = M/N on each case. Of course, we may not want to weight each case equally, a topic we address later. But even in this case, we can choose the level of information we want to each case and extract just that amount based on each case’s pyramid.
 
 #### **Retrieving the relevant 'Attributes' from a legal question**
-Case briefs have a very well defined outline that can be summarized as 1) Case citation & Date, 2)Facts, 3) Procedural Posture, 4)Issue, 5)Rule, 6)Holding, 7)Analysis, 8)Concurrences or dissents.
+Case briefs have a very well defined outline that can be summarized as: 1) Case citation & Date, 2) Facts, 3) Procedural Posture, 4) Issue, 5) Rule, 6) Holding, 7) Analysis, 8) Concurrences or dissents.
 
 Under this structure, we consider the Analysis to be the most demanding segment, as it endeavors to elucidate the rationale guiding the judges' decisions in resolving the case. Since the process of obtaining all the attributes is not trivial, here we will just focus on how to obtain the Analysis:
 
