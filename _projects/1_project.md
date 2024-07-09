@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Entropy Regularized Reinforcement Learning Algorithms
+title: Entropy-Regularized Deep Reinforcement Learning with Linear Programming
 description: Study of Entropy Regularization through Linear Programming formulations and its feasibility in large scale settings
 img: assets/img/envs_bench.jpg
 importance: 1
