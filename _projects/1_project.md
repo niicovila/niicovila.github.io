@@ -7,31 +7,7 @@ importance: 1
 category: Research
 ---
 
-As part of my undergraduate thesis, I am conducting research on several state of the art regularized reinforcement lerning algorithms, as well as tangent variations of such algorithms. I am actively working on QREPS, which is an RL developed through the Linear Programming framework. I have also developed modifications on algorithms such as PPO and X-QL.
-
-### X-QL modifications
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/exact_xsac.png" title="Modifications on X-QL for SAC improvements on CheetahRun" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/exact_xtd3.png" title="Modifications on X-QL for TD3 improvements on CheetahRun" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Modifications I made on both SAC and TD3 versions of X-QL improve the final reward obtained.
-</div>
-
-### PPO modifications
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/xppo.png" title="Modifications on PPO in CartPole and LunarLander" class="img-fluid rounded z-depth-1" %}
-    </div>
-
-</div>
-<div class="caption">
-    Used X-QL loss function to optimize the value function in PPO algorithm. It needs to be further studied.
-</div>
+As part of my undergraduate thesis, I am conducting research on several state of the art regularized reinforcement lerning algorithms, as well as tangent variations of such algorithms. This thesis is mainly about an alternative approach to traditional Deep RL, rooted on the Linear Program reformulation for Markov Decision Processes (MDPs). I implemented Q-REPS from the “Logistic q-learning” paper using neural networks and demonstrated that one can also use this framework to create new Deep RL algorithms that compete with well-known Deep RL algorithms like DQN, SAC or PPO, without needing tricks like gradient clipping, target networks or double q networks. I also propose a novel algorithm “Primal-dual approximate policy iteration” rooted in this linear program reformulation and prove that it can be a strong alternative in large scale settings too.
 
 ### Q-REPS
 My research is mainly focused on enhancing the performance of QREPS -which showed promising results in small scale environments- in larger scale environments with the use of DNNs, and reach comparable results to those achieving state of the art results, such as SAC, TD3 or PPO.
@@ -64,5 +40,37 @@ My research is mainly focused on enhancing the performance of QREPS -which showe
 <div class="caption">
     Learning CartPole with QREPS
 </div>
+
+
+### Thesis pdf
+<object data="/assets/pdf/Entropy-reg-DeepRL-with-LP-final.pdf" width="600" height="800" type='application/pdf'></object>
+
+
+### Other work outside of the main thesis
+#### X-QL modifications
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/exact_xsac.png" title="Modifications on X-QL for SAC improvements on CheetahRun" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/exact_xtd3.png" title="Modifications on X-QL for TD3 improvements on CheetahRun" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Modifications I made on both SAC and TD3 versions of X-QL improve the final reward obtained.
+</div>
+
+#### PPO modifications using Gumbel loss to learn the value function
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/xppo.png" title="Modifications on PPO in CartPole and LunarLander" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+</div>
+<div class="caption">
+    Used X-QL loss function to optimize the value function in PPO algorithm. It needs to be further studied.
+</div>
+
+
 
 
