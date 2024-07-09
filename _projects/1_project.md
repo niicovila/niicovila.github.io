@@ -12,19 +12,20 @@ As part of my undergraduate thesis, I am conducting research on several state of
 ### Q-REPS
 #### Algorithms
 <div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/minmax_qreps.png" title="MinMax QREPS Alg." class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             MinMax-QREPS practical implementation
         </div>
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/elbe_qreps.png" title="ELBE QREPS Alg." class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             ELBE QREPS practical implementation
         </div>
     </div>
 </div>
+
 
 
 #### Reward Curves
