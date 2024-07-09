@@ -12,24 +12,20 @@ As part of my undergraduate thesis, I am conducting research on several state of
 ### Q-REPS
 #### Algorithms
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/minmax_qreps.png" title="MinMax QREPS Alg." class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            MinMax-QREPS practical implementation
+        </div>
     </div>
-</div>
-
-<div class="caption">
-    MinMax-QREPS practical implementation
-</div>
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/elbe_qreps.png" title="ELBE QREPS Alg." class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            ELBE QREPS practical implementation
+        </div>
     </div>
 </div>
 
-<div class="caption">
-    ELBE QREPS practical implementation
-</div>
 
 #### Reward Curves
 <div class="row justify-content-sm-center">
@@ -44,30 +40,26 @@ As part of my undergraduate thesis, I am conducting research on several state of
 
 #### Q-REPS Gameplay videos
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include video.liquid loading="eager" path="assets/video/cartpole.mp4" title="Cartpole in Q-REPS" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        <div class="caption">
+            Learning CartPole with QREPS
+        </div>
     </div>
-</div>
-<div class="caption">
-    Learning CartPole with QREPS
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include video.liquid loading="eager" path="assets/video/lunarlander.mp4" title="LunarLander in Q-REPS" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        <div class="caption">
+            Learning LunarLander-v2 with QREPS
+        </div>
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include video.liquid loading="eager" path="assets/video/acrobot.mp4" title="Acrobot in Q-REPS" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        <div class="caption">
+            Learning Acrobot-v1 with QREPS
+        </div>
+    </div>
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid loading="eager" path="assets/video/lunarlander.mp4" title="LunarLander in QREPS" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
-    </div>
-</div>
-<div class="caption">
-    Learning LunarLander-v2 with QREPS
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid loading="eager" path="assets/video/acrobot.mp4" title="Acrobot in QREPS" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
-    </div>
-</div>
-<div class="caption">
-    Learning Acrobot-v1 with QREPS
-</div>
 
 #### Q-REPS Extensions to continuous environments
 With little modification on the original algorithm one could make this algorithm work for continuous actions as well. This is an example on the Halfcheetah environent.
