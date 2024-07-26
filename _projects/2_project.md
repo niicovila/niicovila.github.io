@@ -7,6 +7,10 @@ importance: 2
 category: Machine Learning
 ---
 
+### Paper
+<object data="/assets/pdf/paper_unsupervised_anomaly_detection.pdf" width="600" height="800" type='application/pdf'></object>
+
+
 Water distribution networks in urban environments face the crucial challenge of detecting anomalies like leaks, excessive consumption, or meter errors. These anomalies often go unnoticed until significant water loss occurs. This project tackles this critical issue by presenting a novel, adaptable deep learning meta-model specifically designed for anomaly detection in water meter data.
 
 ### Leveraging Deep Learning for Time Series
