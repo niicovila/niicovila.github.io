@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic_2.png
+  image: prof_pic_2.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Barcelona, Spain</p>
