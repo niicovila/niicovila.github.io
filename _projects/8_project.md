@@ -2,7 +2,7 @@
 layout: page
 title: Computer Vision for mass prediction of kelp
 description: Development of a computer vision pipeline that accelerates subsidy delivery by deriving total kelp mass from an image. 
-img: assets/img/envs_bench.jpg
+img: assets/img/kelp.png
 importance: 8
 category: Machine Learning
 ---
