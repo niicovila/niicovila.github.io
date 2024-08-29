@@ -72,7 +72,7 @@ even more accurately on.
 
 
 
-### Data Science proposal
+### Data Science proposal
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid loading="eager" path="assets/video/cv_project.mp4" title="Presentation on ML models" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
