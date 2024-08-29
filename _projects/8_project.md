@@ -30,15 +30,7 @@ pre-trained segmentation model to learn high-level features and parameters to id
 presence of kelp. These extracted features were then fed through a trained neural network
 attached to the segmentation model to obtain the final weight prediction.
 
-The results are promising. Feeding the team’s CNN feature-vector into the neural network
-provided the best results, showing a 23% error rate and an average loss of 0.33kg. This means
-that for a given photo of kelp, on average the model predicts the weight within 0.33kg of the
-actual weight. The team believes this to be a strong starting point for the project, especially
-given that most of the dataset consists of smaller bunches of kelp, which the model performed
-even more accurately on. 
-
-### Q-REPS
-#### Algorithms
+#### Kelp segmentation model and prediction errors
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/kelp_segmented.png" title="Segmentation of kelp model." class="img-fluid rounded z-depth-1" %}
@@ -54,7 +46,16 @@ even more accurately on.
     </div>
 </div>
 
-#### Tabular Results
+The results are promising. Feeding the team’s CNN feature-vector into the neural network
+provided the best results, showing a 23% error rate and an average loss of 0.33kg. This means
+that for a given photo of kelp, on average the model predicts the weight within 0.33kg of the
+actual weight. The team believes this to be a strong starting point for the project, especially
+given that most of the dataset consists of smaller bunches of kelp, which the model performed
+even more accurately on. 
+
+
+
+#### Test data results
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/cv_test_learning_curves.png" title="curves" class="img-fluid rounded z-depth-1" %}
