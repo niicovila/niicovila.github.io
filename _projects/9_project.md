@@ -26,6 +26,6 @@ In this project, I analyzed the Central England Temperature (CET) dataset, which
 Overall, this project provides a detailed statistical analysis of historical temperature data in Central England, highlighting the ongoing impact of global warming in this region.
 
 ### Full Project write-up
-<object data="/assets/pdf/cv_project.pdf" width="600" height="800" type='application/pdf'></object>
+<object data="/assets/pdf/time_series_climate.pdf" width="600" height="800" type='application/pdf'></object>
 
 
