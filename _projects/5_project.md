@@ -7,7 +7,7 @@ importance: 5
 category: Machine Learning
 ---
 # Information Retrieval System for Tweet Analysis
-<a href="https://github.com/niicovila/IRWA_Project">This project</a> is an information retrieval system that we developed to process and rank tweets related to specific queries, with a primary focus on geopolitical events such as the Russia-Ukraine conflict. The system combines traditional information retrieval methods with modern machine-learning techniques to ensure that search results are both accurate and relevant. The project includes various components, ranging from indexing and ranking algorithms to a user interface and web analytics integration.
+<a href="https://github.com/niicovila/IRWA_Project">This project</a> is an information retrieval system that we developed to process and rank tweets related to specific queries, with a primary focus on geopolitical events such as the Russia-Ukraine conflict. The system combines traditional information retrieval methods with modern machine-learning techniques to ensure that search results are both accurate and relevant. The project includes various components, ranging from indexing and ranking algorithms to a user interface and web analytics integration. All the information can be found in the original repo.
 
 ## Indexing and TF-IDF Computation
 
