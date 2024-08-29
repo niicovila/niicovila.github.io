@@ -2,7 +2,7 @@
 layout: page
 title: Communities and Crime Analytics with Big Data
 description: Analyzing the factors contributing to violent crime rates across communities in the United States
-img: assets/img/envs_bench.jpg
+img: assets/img/bd_project.png
 importance: 7
 category: Data Science
 ---
