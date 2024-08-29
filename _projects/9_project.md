@@ -2,7 +2,7 @@
 layout: page
 title: Time-series analysis for weather data
 description: 
-img: assets/img/kelp.png
+img: assets/img/ts_arima.png
 importance: 9
 category: Data Science
 ---
