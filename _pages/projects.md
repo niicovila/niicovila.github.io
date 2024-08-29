@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of some of my projects.
 nav: true
 nav_order: 3
-display_categories: [Research, Machine Learning, Data Science]
+display_categories: [Research, Data Science, Machine Learning]
 horizontal: false
 ---
 
